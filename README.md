@@ -33,11 +33,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-- I face the challenger when I made the Setting View Controller. I need to think about how to apply the code right
-  as the tutorial on the web explain. I take about 5 hours to understand how to use the NSUserDefaults effectively.
-- I change the code many time to make sure that my apps is convinient for the users.
-- I take a lot of time to file a pretty icon and beautiful back ground for my apps. I want the user like the apps
-  because it is not only an apps but it also a wondeful work of art.
+- I faced the challenger when I made the Setting View Controller. I took a lot of hours to learn how to use the
+  keys. I realize that it is similar with the dictionary in python.
+- I changed the code many times to make sure that my apps is convinient for the users.
+- I take a lot of hours to find a pretty icon and beautiful background for MyTip. I want the users like MyTip
+  because it is not only an application but it also a wondeful work of art.
 
 ## License
 
