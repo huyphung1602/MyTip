@@ -14,14 +14,17 @@ The following **required** functionality is complete:
 * [x] Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
-* [x] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] UI animations.
+* [x] Remembering the bill amount across app restarts (if <10mins).
+* [x] Using locale-specific currency and currency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Add another theme for the app (one dark them and one light theme now).
+- [x] Add clear all button to clear all the value in bill text field.
+- [x] Add Paid button to record the purchased. The purchased shall be stored in History view. It also track the
+     time when the user paid the bill.
 
 ## Video Walkthrough 
 
