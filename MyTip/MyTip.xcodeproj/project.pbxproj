@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51FF0151DA5823C007749CA /* launch_screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F51FF0141DA5823C007749CA /* launch_screen.jpg */; };
+		F51FF0191DA5905B007749CA /* payment.png in Resources */ = {isa = PBXBuildFile; fileRef = F51FF0181DA5905B007749CA /* payment.png */; };
+		F52556051D9D75F600AA55C4 /* background_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F52556041D9D75F600AA55C4 /* background_001.jpg */; };
 		F561836C1D8C62C4007B0C2C /* SettingsViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F561836B1D8C62C4007B0C2C /* SettingsViewControler.swift */; };
 		F58BB78C1D98115A00FC9B6A /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58BB78B1D98115A00FC9B6A /* FirstScreen.swift */; };
 		F58BB78F1D9812A600FC9B6A /* background_002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F58BB78D1D9812A600FC9B6A /* background_002.jpg */; };
 		F58BB7901D9812A600FC9B6A /* MyTip.png in Resources */ = {isa = PBXBuildFile; fileRef = F58BB78E1D9812A600FC9B6A /* MyTip.png */; };
+		F59FCB841DA15CE500623D09 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F59FCB821DA15CE500623D09 /* Model.xcdatamodeld */; };
+		F5A973231DA18D77002EEB75 /* Purchased+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A973211DA18D77002EEB75 /* Purchased+CoreDataProperties.swift */; };
+		F5A973241DA18D77002EEB75 /* Purchased.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A973221DA18D77002EEB75 /* Purchased.swift */; };
+		F5A973261DA18DD6002EEB75 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A973251DA18DD6002EEB75 /* DataController.swift */; };
+		F5A973281DA19533002EEB75 /* saveHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A973271DA19533002EEB75 /* saveHistory.swift */; };
 		F5C9AAAE1D86F48300ECF48A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9AAAD1D86F48300ECF48A /* AppDelegate.swift */; };
 		F5C9AAB01D86F48300ECF48A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C9AAAF1D86F48300ECF48A /* ViewController.swift */; };
 		F5C9AAB31D86F48300ECF48A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C9AAB11D86F48300ECF48A /* Main.storyboard */; };
@@ -38,10 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F51FF0141DA5823C007749CA /* launch_screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch_screen.jpg; sourceTree = SOURCE_ROOT; };
+		F51FF0181DA5905B007749CA /* payment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payment.png; sourceTree = SOURCE_ROOT; };
+		F52556041D9D75F600AA55C4 /* background_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_001.jpg; sourceTree = SOURCE_ROOT; };
 		F561836B1D8C62C4007B0C2C /* SettingsViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewControler.swift; sourceTree = "<group>"; };
 		F58BB78B1D98115A00FC9B6A /* FirstScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		F58BB78D1D9812A600FC9B6A /* background_002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_002.jpg; sourceTree = SOURCE_ROOT; };
 		F58BB78E1D9812A600FC9B6A /* MyTip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyTip.png; sourceTree = SOURCE_ROOT; };
+		F59FCB831DA15CE500623D09 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F5A973211DA18D77002EEB75 /* Purchased+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Purchased+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F5A973221DA18D77002EEB75 /* Purchased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchased.swift; sourceTree = "<group>"; };
+		F5A973251DA18DD6002EEB75 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataController.swift; path = ../DataController.swift; sourceTree = "<group>"; };
+		F5A973271DA19533002EEB75 /* saveHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saveHistory.swift; sourceTree = "<group>"; };
 		F5C9AAAA1D86F48300ECF48A /* MyTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C9AAAD1D86F48300ECF48A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C9AAAF1D86F48300ECF48A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +101,8 @@
 		F5C9AAA11D86F48300ECF48A = {
 			isa = PBXGroup;
 			children = (
+				F5A973211DA18D77002EEB75 /* Purchased+CoreDataProperties.swift */,
+				F5A973221DA18D77002EEB75 /* Purchased.swift */,
 				F5C9AAAC1D86F48300ECF48A /* MyTip */,
 				F5C9AAC11D86F48300ECF48A /* MyTipTests */,
 				F5C9AACC1D86F48300ECF48A /* MyTipUITests */,
@@ -105,12 +123,18 @@
 		F5C9AAAC1D86F48300ECF48A /* MyTip */ = {
 			isa = PBXGroup;
 			children = (
+				F5A973251DA18DD6002EEB75 /* DataController.swift */,
 				F5C9AAAD1D86F48300ECF48A /* AppDelegate.swift */,
 				F58BB78B1D98115A00FC9B6A /* FirstScreen.swift */,
 				F5C9AAAF1D86F48300ECF48A /* ViewController.swift */,
+				F5A973271DA19533002EEB75 /* saveHistory.swift */,
 				F561836B1D8C62C4007B0C2C /* SettingsViewControler.swift */,
 				F5C9AAB11D86F48300ECF48A /* Main.storyboard */,
+				F59FCB821DA15CE500623D09 /* Model.xcdatamodeld */,
 				F5C9AAB41D86F48300ECF48A /* Assets.xcassets */,
+				F51FF0141DA5823C007749CA /* launch_screen.jpg */,
+				F51FF0181DA5905B007749CA /* payment.png */,
+				F52556041D9D75F600AA55C4 /* background_001.jpg */,
 				F58BB78D1D9812A600FC9B6A /* background_002.jpg */,
 				F58BB78E1D9812A600FC9B6A /* MyTip.png */,
 				F5C9AAB61D86F48300ECF48A /* LaunchScreen.storyboard */,
@@ -243,10 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C9AAB81D86F48300ECF48A /* LaunchScreen.storyboard in Resources */,
+				F52556051D9D75F600AA55C4 /* background_001.jpg in Resources */,
 				F58BB7901D9812A600FC9B6A /* MyTip.png in Resources */,
 				F5C9AAB51D86F48300ECF48A /* Assets.xcassets in Resources */,
+				F51FF0191DA5905B007749CA /* payment.png in Resources */,
 				F58BB78F1D9812A600FC9B6A /* background_002.jpg in Resources */,
 				F5C9AAB31D86F48300ECF48A /* Main.storyboard in Resources */,
+				F51FF0151DA5823C007749CA /* launch_screen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +299,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58BB78C1D98115A00FC9B6A /* FirstScreen.swift in Sources */,
+				F5A973281DA19533002EEB75 /* saveHistory.swift in Sources */,
 				F561836C1D8C62C4007B0C2C /* SettingsViewControler.swift in Sources */,
 				F5C9AAB01D86F48300ECF48A /* ViewController.swift in Sources */,
+				F5A973261DA18DD6002EEB75 /* DataController.swift in Sources */,
 				F5C9AAAE1D86F48300ECF48A /* AppDelegate.swift in Sources */,
+				F5A973231DA18D77002EEB75 /* Purchased+CoreDataProperties.swift in Sources */,
+				F59FCB841DA15CE500623D09 /* Model.xcdatamodeld in Sources */,
+				F5A973241DA18D77002EEB75 /* Purchased.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,14 +448,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyTip/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuyPhung.MyTip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -431,10 +465,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyTip/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuyPhung.MyTip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,6 +563,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F59FCB821DA15CE500623D09 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F59FCB831DA15CE500623D09 /* Model.xcdatamodel */,
+			);
+			currentVersion = F59FCB831DA15CE500623D09 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F5C9AAA21D86F48300ECF48A /* Project object */;
 }

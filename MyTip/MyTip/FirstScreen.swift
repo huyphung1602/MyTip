@@ -10,9 +10,23 @@ import UIKit
 
 class FirstScreen: UIViewController {
 
+    @IBOutlet weak var background_firstview: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // Apply current seletected theme
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let checkNil = defaults.objectForKey("theme_flag")
+        
+        if checkNil != nil {
+            let themeFlag = Int(defaults.objectForKey("theme_flag") as! NSNumber)
+            if (themeFlag == 0) {
+                background_firstview.image = image1
+            } else {
+                background_firstview.image = image2
+            }
+        }
         // Do any additional setup after loading the view.
     }
 
