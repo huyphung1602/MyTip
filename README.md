@@ -4,7 +4,7 @@
 
 Submitted by: **Huy Phung**
 
-Time spent: **30** hours spent in total
+Time spent: **70** hours spent in total
 
 ## User Stories
 
