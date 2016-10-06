@@ -77,6 +77,14 @@ class ViewController: UIViewController {
             billField.text = billFieldText
         }
         
+        // Do not let user input "00000.."
+        if (billField.text == "00") {
+            billField.text = "0"
+        } else if (billField.text == "."){
+            billField.text = ""
+        }
+        billField.text = removeSecondDot(billField.text!)
+        
         // Set moneyBag pic alpha equal 0
         moneyBag.alpha = 0
         
