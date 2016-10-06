@@ -29,15 +29,6 @@ class SettingsViewControler: UIViewController {
     
     @IBOutlet weak var themeTitle: UILabel!
     
-    // Warning label
-    @IBOutlet weak var warningLabel: UILabel!
-    
-    // Warning condition
-    var condition_1 = 0
-    var condition_2 = 0
-    var condition_3 = 0
-    var condition_flag = 0
-    
     struct themeFlag {
         static var flag   = 1
     }
@@ -92,8 +83,6 @@ class SettingsViewControler: UIViewController {
             }
         }
         
-        warningLabel.text = ""
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -117,30 +106,6 @@ class SettingsViewControler: UIViewController {
        
        // Load the NSU
        let defaults = NSUserDefaults.standardUserDefaults()
-       
-       // Use to warning if users input is not integer
-       if ((Int(userField1.text!) == nil) && (userField1.text != "")) {
-           userField1.text = ""
-           condition_1 = 1
-       }
-       
-       if ((Int(userField2.text!) == nil) && (userField2.text != "")) {
-           userField2.text = ""
-           condition_2 = 1
-       }
-        
-       if ((Int(userField3.text!) == nil) && (userField3.text != "")) {
-           userField3.text = ""
-           condition_3 = 1
-       }
-        
-       condition_flag = condition_1 + condition_2 + condition_3
-       
-       if (condition_flag != 0) {
-           warningLabel.text = "Ratio must be integer"
-       } else {
-           warningLabel.text = ""
-       }
         
        // Catch the values from keyboard
        let config_1  = Int(userField1.text!) ?? configArray.configPercentages[0]
@@ -165,10 +130,6 @@ class SettingsViewControler: UIViewController {
        defaults.synchronize()
         
        configArray.configPercentages = [config_1, config_2, config_3]
-       condition_1 = 0
-       condition_2 = 0
-       condition_3 = 0
-       condition_flag = 0
         
     }
     
@@ -222,8 +183,8 @@ class SettingsViewControler: UIViewController {
     func set_bg_setting_1() {
         background_setting.image = image1
         
-        perTitle.textColor    = myBlack
-        themeTitle.textColor  = myBlack
+        perTitle.textColor    = myRed
+        themeTitle.textColor  = myRed
         
         ratio1.textColor      = myBlack
         ratio2.textColor      = myBlack
@@ -254,21 +215,37 @@ class SettingsViewControler: UIViewController {
         // Do not let user input "00000.."
         if (userField1.text == "00") {
             userField1.text = "0"
+        } else if (userField1.text == ".") {
+            userField1.text = ""
         }
+        userField1.text = removeDot(userField1.text!)
     }
     
     @IBAction func userField2Changed(sender: AnyObject) {
         // Do not let user input "00000.."
         if (userField2.text == "00") {
             userField2.text = "0"
+        } else if (userField2.text == ".") {
+            userField2.text = ""
         }
+        userField2.text = removeDot(userField2.text!)
     }
     
     @IBAction func userField3Changed(sender: AnyObject) {
         // Do not let user input "00000.."
         if (userField3.text == "00") {
             userField3.text = "0"
+        } else if (userField3.text == ".") {
+            userField3.text = ""
         }
+        userField3.text = removeDot(userField3.text!)
     }
+    
+    func removeDot(myTextField: String) -> String {
+        let splitArray  = myTextField.componentsSeparatedByString(".")
+        let finalString     = splitArray.joinWithSeparator("")
+        return finalString
+    }
+    
     
 }

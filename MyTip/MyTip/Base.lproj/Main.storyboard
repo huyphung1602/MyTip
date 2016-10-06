@@ -301,13 +301,6 @@
                                     <action selector="changeTheme:" destination="ndY-fJ-Wf5" eventType="touchDown" id="kJf-UT-1gf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ratio must be integer" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FAx-8I-Byn">
-                                <rect key="frame" x="149" y="94" width="151" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -329,7 +322,6 @@
                         <outlet property="userField1" destination="sXB-sh-WJo" id="hcx-fR-l0V"/>
                         <outlet property="userField2" destination="juS-Az-a9s" id="MsF-rP-2IZ"/>
                         <outlet property="userField3" destination="PAR-pI-xYf" id="4Kf-1T-yj6"/>
-                        <outlet property="warningLabel" destination="FAx-8I-Byn" id="cqg-Du-Jk7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ED-ge-Duy" userLabel="First Responder" sceneMemberID="firstResponder"/>

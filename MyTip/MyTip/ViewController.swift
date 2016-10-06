@@ -190,7 +190,10 @@ class ViewController: UIViewController {
         // Do not let user input "00000.."
         if (billField.text == "00") {
             billField.text = "0"
+        } else if (billField.text == "."){
+            billField.text = ""
         }
+        billField.text = removeSecondDot(billField.text!)
         
         // Calulate everytime the bill value is changed
         cal_function()
@@ -267,6 +270,15 @@ class ViewController: UIViewController {
         cal_function()
     }
     
+    func removeSecondDot(myTextField: String) -> String {
+        var finalString = myTextField
+        if (myTextField.componentsSeparatedByString(".").count == 3) {
+           var splitArray  = myTextField.componentsSeparatedByString(".")
+           splitArray.removeLast()
+           finalString = splitArray.joinWithSeparator(".")
+        }
+        return finalString
+    }
     
     
 }
